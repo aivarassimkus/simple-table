@@ -1,0 +1,29 @@
+.table {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    thead {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        th {
+            padding: 12px 0px;
+            background-color: #2a67dab6;
+            color: white;
+        }
+    }
+    tbody {
+        height: 500px;
+        display: block;
+        overflow-y: overlay;
+        tr {
+            display: table;
+            width: calc(100% - 1px);
+            table-layout: fixed;
+            td {
+                border: 1px solid #979eaab6;
+                padding: 8px;
+            }
+        }
+    }
+}
